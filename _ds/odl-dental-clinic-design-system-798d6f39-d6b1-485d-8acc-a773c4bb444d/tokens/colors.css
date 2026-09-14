@@ -1,0 +1,62 @@
+/* ODL Dental Clinic — Color tokens
+   Source: odldentalclinic.com brand extraction (Peek export) + site screenshots.
+   The brand rests on a single confident cyan against clean off-white surfaces,
+   with a deep navy for high-emphasis CTAs. */
+
+:root {
+  /* ---- Brand core ---- */
+  --odl-cyan: #15ace6;          /* primary brand color — logo, links, key accents */
+  --odl-cyan-alt: #12ade6;      /* near-identical hover/variant of the cyan */
+  --odl-navy: #0056a7;          /* deep blue — high-emphasis CTA buttons */
+
+  /* ---- Ink / text ---- */
+  --odl-black: #000000;
+  --odl-ink: #111111;           /* near-black headings */
+  --odl-ink-800: #222222;
+  --odl-charcoal: #3b3b3b;      /* body copy */
+  --odl-charcoal-warm: #464141; /* warm charcoal — secondary headings */
+  --odl-gray: #747474;          /* muted / supporting text */
+  --odl-silver: #c7c7c7;        /* disabled text, faint labels */
+
+  /* ---- Lines / borders ---- */
+  --odl-line: #d1d1d1;          /* default border */
+  --odl-line-soft: #d9d9d9;     /* softer divider */
+  --odl-line-faint: #e3e3e3;    /* faintest hairline */
+
+  /* ---- Surfaces ---- */
+  --odl-white: #ffffff;
+  --odl-ghost: #fafafa;         /* barely-there off-white */
+  --odl-smoke: #f6f6f6;         /* light neutral section fill */
+  --odl-ice: #f2f9fd;           /* pale cyan-tinted section fill */
+  --odl-ice-alt: #f1f8fc;
+
+  /* ---- Semantic aliases ---- */
+  --brand: var(--odl-cyan);
+  --brand-hover: var(--odl-cyan-alt);
+  --cta: var(--odl-navy);
+
+  --text-heading: var(--odl-ink);
+  --text-heading-warm: var(--odl-charcoal-warm);
+  --text-body: var(--odl-charcoal);
+  --text-muted: var(--odl-gray);
+  --text-disabled: var(--odl-silver);
+  --text-on-brand: var(--odl-white);
+  --text-link: var(--odl-cyan);
+
+  --surface-page: var(--odl-white);
+  --surface-alt: var(--odl-smoke);
+  --surface-tint: var(--odl-ice);
+  --surface-card: var(--odl-white);
+  --surface-brand: var(--odl-cyan);
+
+  --border-default: var(--odl-line);
+  --border-soft: var(--odl-line-soft);
+  --border-faint: var(--odl-line-faint);
+  --border-brand: var(--odl-cyan);
+
+  /* Cyan alphas for tints, focus rings, glows */
+  --brand-a08: rgba(21, 172, 230, 0.08);
+  --brand-a12: rgba(21, 172, 230, 0.12);
+  --brand-a24: rgba(21, 172, 230, 0.24);
+  --brand-a40: rgba(21, 172, 230, 0.40);
+}

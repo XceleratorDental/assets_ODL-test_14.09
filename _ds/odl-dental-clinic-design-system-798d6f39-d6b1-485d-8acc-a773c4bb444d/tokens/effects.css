@@ -1,0 +1,31 @@
+/* ODL Dental Clinic — Radii, shadows & motion
+   The brand leans soft and rounded: pill-shaped buttons, circular treatment
+   thumbnails, gently rounded cards with soft ambient shadows. Motion is
+   understated — quick fades and small lifts, never bouncy. */
+
+:root {
+  /* Corner radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;   /* buttons, chips, review cards */
+  --radius-circle: 50%;   /* treatment / feature thumbnails */
+
+  /* Shadows — soft, cool-tinted ambient (never harsh) */
+  --shadow-xs: 0 1px 2px rgba(17, 17, 17, 0.06);
+  --shadow-sm: 0 2px 8px rgba(17, 17, 17, 0.06);
+  --shadow-md: 0 6px 20px rgba(17, 17, 17, 0.08);
+  --shadow-lg: 0 16px 40px rgba(17, 17, 17, 0.10);
+  --shadow-brand: 0 10px 24px rgba(21, 172, 230, 0.28);  /* glow under cyan CTAs */
+
+  /* Focus ring */
+  --focus-ring: 0 0 0 3px var(--brand-a40);
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+  --dur-fast: 120ms; /* @kind other */
+  --dur-base: 200ms; /* @kind other */
+  --dur-slow: 320ms; /* @kind other */
+}

@@ -1,0 +1,12 @@
+/* ODL Dental Clinic — Webfonts
+   Manrope is the single brand typeface (variable weight 200–800).
+   Provided as a variable TTF; declared across the usable weight range. */
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/Manrope-VariableFont_wght.ttf") format("truetype-variations"),
+       url("../assets/fonts/Manrope-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
